@@ -47,7 +47,7 @@ O projeto será divido em 4 etapas:
 
 4. `Mobile:` Criar um app mobile que permita que os funcionários possam visualizar suas própias faltas.
 
-Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização.
+Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização. Em cada pasta, haverá um readme com mais detalhes de cada item.
 
 # Autor
 
