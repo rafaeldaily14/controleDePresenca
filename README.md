@@ -14,5 +14,7 @@
 
 
 
-# Introdução
-Este projeto se refere à um software construído para um trabalho da faculdade e tem como finalidade controlar presenças e faltas de membros de uma Empresa  (como um Ponto Eletrônico)
+# Descrição do Projeto
+Este projeto se refere à um software construído para um trabalho final da disciplina Tecnologia Web e Mobile do curso de Engenharia da Computação pela Universidade Federal de Uberlândia (UFU). O sistema tem como finalidade controlar presenças e faltas de membros de uma Empresa  (como um Ponto Eletrônico).
+
+O sistema possuirá um cadastro de membros, terá a possibilidade de registrar presenças tanto de entrada como de saída, gerará um relatório com todas as faltas de cada membro a partir de um determinado dia e também permitirá que os funcionários visualizem suas própias faltas a partir de um aplicativo mobile.
