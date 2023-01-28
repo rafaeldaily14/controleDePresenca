@@ -5,9 +5,7 @@
 
 # Controle de Presença (Ponto Eletrônico)
 
-<p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
-</p>
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 
 ![image](https://user-images.githubusercontent.com/119074384/215282635-53443d7a-c311-4fa8-acc6-c5f9bbef17d1.png)
