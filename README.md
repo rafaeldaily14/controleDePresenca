@@ -26,7 +26,8 @@ O sistema possuirá um cadastro de membros, terá a possibilidade de registrar p
     - `Cadastro de Usuários`: Realizar a inserção, alteração e remoção de funcionários e suas informações a respeito de horários de trabalho.
     - `Relatório de Faltas`: Um relatório contendo todas as faltas de todos os funcionários em um determinado período de tempo.
 - `Funcionalidades dos funcionários`: Estas funcionalidades estarão disponíveis para todos os funcionários (para o caso das Faltas do Usuário, haverá um login para que apenas o funcionário com senha consiga visualizar suas faltas):
-    - `Registro de Presença`: Permitir que os funcionários batam ponto de entrada ou saída. Haverá uma tolerância de atraso de 10 min para registros de entrada ou saída, se o funcionário bater o ponto com atraso, isso será indicado no relatório de faltas. Os funcionários não poderão bater o ponto se faltam mais do que 10 min para dar o horário de entrada ou saída. Abaixo está uma tabela para a visualização do que o sistema irá fazer para cada caso na situação de um funcionário com horário de entrada de 10:00. A tabela é idêntica para um funcionário com saída de 10:00
+    - `Registro de Presença`: Permitir que os funcionários batam ponto de entrada ou saída. Haverá uma tolerância de atraso de 10 min para registros de entrada ou saída, se o funcionário bater o ponto com atraso, isso será indicado no relatório de faltas. Os funcionários não poderão bater o ponto se faltam mais do que 10 min para dar o horário de entrada ou saída. Abaixo está uma tabela para a visualização do que o sistema irá fazer para cada caso na situação de um funcionário com horário de entrada de 10:00. A tabela é idêntica para um funcionário com saída de 10:00.
+
 ![image](https://user-images.githubusercontent.com/119074384/215286872-e84d7740-55dd-439f-b162-868c0ef0cf5e.png)
 
     - `Faltas do Usuário`: Cada usuário visualizará somentes as suas própias faltas dentro do app.
