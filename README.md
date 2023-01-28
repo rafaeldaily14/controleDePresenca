@@ -23,10 +23,10 @@ O sistema possuirá um cadastro de membros, terá a possibilidade de registrar p
 
 O projeto será divido em 4 etapas:
 
-1. `Banco de Dados:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+1. `Banco de Dados:` Criar Tabelas, Relacionamentos e Consultas que serão realizadas pelo back-end.
 
-2. `Back-end:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+2. `Back-end:` Criar a API com as funcionalidades requeridas, assim como todas as rotas necessárias para que o sistema funcione tanto para o front-end como para o mobile.
 
-`Front-end:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+3. `Front-end:` Apresentar no navegador web as funcionalidades de cadastro, registro de presença e relatório de faltas.
 
-`mobile:` Chat com entre o paciente e profissional da saúde.
+4. `mobile:` Criar um app mobile que permita que os funcionários possam visualizar suas própias faltas.
