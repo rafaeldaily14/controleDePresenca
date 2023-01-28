@@ -49,11 +49,14 @@ O projeto será divido em 4 etapas:
 
 Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização.
 
-# Contatos
+# Autor
 
-|  [<img src="https://user-images.githubusercontent.com/119074384/215287567-3e825a20-afc6-4f63-9cc4-a1efa604560c.png" width=115><br><sub>Rafael Daily</sub>](https://github.com/rafaeldaily14)|
+
+
+
+  |  [<img src="https://user-images.githubusercontent.com/119074384/215287567-3e825a20-afc6-4f63-9cc4-a1efa604560c.png" width=115><br><sub>Rafael Daily</sub>](https://github.com/rafaeldaily14)|
 | :---:
 
 [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/rafael-daily-santos-martins-9138741b3/)
-[<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:rafaeldaily1414@gmail.com)
+
 
