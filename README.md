@@ -1,6 +1,9 @@
 
 
 # Controle de Presença (Ponto Eletrônico)
+<h2 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h2>
 
 
 
@@ -8,9 +11,7 @@
 
 
 
-<h2 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h2>
+
 
 # Introdução
 Este projeto se refere à um software construído para um trabalho da faculdade e tem como finalidade controlar presenças e faltas de membros de uma Empresa  (como um Ponto Eletrônico)
