@@ -59,4 +59,4 @@ Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização.
 
 [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/rafael-daily-santos-martins-9138741b3/)
 
-
+rafaeldaily1414@gmail.com
