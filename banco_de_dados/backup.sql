@@ -66,21 +66,16 @@ CREATE TABLE tb_membros (
 	id SERIAL,
 	nome VARCHAR(200),
 	cargo VARCHAR(200),
-	dia_semana INTEGER,
-	hora_entrada VARCHAR(5),
-	hora_saida VARCHAR(5),
-	PRIMARY KEY(id),
-   	CONSTRAINT fk_membros
-      	FOREIGN KEY(dia_semana) REFERENCES tb_dia_semana(id)
+	PRIMARY KEY(id)
 );
 
-INSERT INTO tb_membros (nome, cargo, dia_semana, hora_entrada, hora_saida)
+INSERT INTO tb_membros (nome, cargo)
 VALUES 
-	('Rafael', 'Presidente', 1, '10:00','11:00'),
-	('Pedro', 'Consultor', 2, '10:00','11:00'),
-	('Alice', 'VP', 3, '10:00','11:00'),
-	('Carla', 'Gerente de RH', 4, '10:00','11:00'),
-	('Paulo', 'Técnico', 5, '10:00','11:00');
+	('Rafael', 'Presidente'),
+	('Pedro', 'Consultor'),
+	('Alice', 'VP'),
+	('Carla', 'Gerente de RH'),
+	('Paulo', 'Técnico');
 
 ----------------------------------
 
@@ -148,3 +143,26 @@ VALUES
 	(5,'2023-01-27'::date, 11, 20, 'saida', 20);
 
 ----------------------------------
+--Cria e popula a tabela de horarios
+
+/*Esta tabela contém os horários que os funcionários devem bater o ponto*/
+
+CREATE TABLE tb_horarios (
+	id SERIAL,
+	membroid INTEGER,
+	dia_semana INTEGER,
+	hora_entrada VARCHAR(5),
+	hora_saida VARCHAR(5),
+	PRIMARY KEY(id),
+   	CONSTRAINT fk_horarios
+		FOREIGN KEY(membroid) REFERENCES tb_membros(id),
+      	FOREIGN KEY(dia_semana) REFERENCES tb_dia_semana(id)
+);
+
+INSERT INTO tb_horarios (membroid, dia_semana, hora_entrada, hora_saida)
+VALUES 
+	(1, 1, '10:00','11:00'),
+	(2, 2, '10:00','11:00'),
+	(3, 3, '10:00','11:00'),
+	(4, 4, '10:00','11:00'),
+	(5, 5, '10:00','11:00')
