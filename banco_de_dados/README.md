@@ -42,7 +42,9 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
 
 Neste projeto, foi utilizado o PostgreSQL, mas você consegue replicar o banco quem qualquer SGBD de sua preferência, apenas não garanto que os códigos SQL feitos neste projeto irão funcionar de forma adequada. Para baixar o PostgreSQL pode acessar este link: https://www.postgresql.org/download/. Também recomendo a instalação da interface pgAdmin: https://www.pgadmin.org/download/
 
-O arquivo `backup.sql` contém um código SQL que criará todo o banco de dados que será utilizado pelo sistema, então basta executá-lo usando o query tool do pgAdmin (ou de outra forma que preferir) e terá o banco pronto para ser utilizado.
+Antes de criar as tabelas, você deve criar um banco de dados. Neste projeto, demos o nome do banco de `bd_banco_de_dados`. Você pode criar o banco usando o pgAdmin ou executando o comando no postgres: `CREATE DATABASE bd_banco_de_dados;`
+
+O arquivo `backup.sql` contém um código SQL que criará todas as tabelas que será utilizado pelo sistema e populá-las com alguns dados, então basta executá-lo usando o query tool do pgAdmin (ou de outra forma que preferir) e terá o banco pronto para ser utilizado.
 
 # Queries
 
