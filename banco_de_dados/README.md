@@ -38,9 +38,13 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
   - `id`
   - `nome_dia_semana`
 
-# Backup
+# Instalação e Backup
 
-Um backup do banco será disponibilizado dentro da pasta banco_de_dados, assim como as consultas SQL que serão utilizadas pelo back-end.
+O arquivo `backup.sql` contém um código SQL que criará todo o banco de dados que será utilizado pelo sistema, então basta executá-lo usando o query tool do pgAdmin (ou de outra forma que preferir) e terá o banco pronto para ser utilizado.
+
+# Queries
+
+Dentro da pasta `consultas` está todas as queries que são utilizadas pelo back-end. Cada uma delas possui um comentário descrevendo o que ela faz. Não é necessário baixa-las ou executa-las, estão lá apenas para aprendizado.
 
 # Banco utilizado e sua versão
 <p>
