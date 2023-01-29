@@ -29,7 +29,7 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
   - `membroid`
   - `usuario`
   - `senha`
-- `tb_calendario`: Contém todos os dias a partir de uma determinada até até outra determinada data
+- `tb_calendario`: Contém todos os dias a partir de 01/01/2020 até 31/12/2040
   - `id`
   - `data`
   - `dia_semana`
