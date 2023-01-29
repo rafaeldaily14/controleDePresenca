@@ -3,7 +3,7 @@
 A imagem abaixo apresenta um diagrama de classes mostrando as tabelas, os campos e os relacionamentos necessários para a construção do banco de dados da aplicação.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/119074384/215298968-e6e87670-d2af-4545-a060-9d04131caacf.jpeg" width="700" />
+<img src="https://user-images.githubusercontent.com/119074384/215357368-c0db2bcb-6ba1-499e-b11a-3f711e97eb29.jpeg" width="700" />
 </p>
 
 # Tabelas e Colunas
@@ -14,11 +14,15 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
   - `id`
   - `nome`
   - `cargo`
-  - `dia_semana`: número que indica o dia da semana (domingo, segunda, terça, etc.).
-  - `hora_entrada`: texto indicando a hora em que o membro deve bater o ponto de entrada no formato HH:MM.
-- `tb_pontos`: Contém os registros de quando os membros bateram pontos de entrada ou saída:
+- `tb_horarios`: Contém os horários que os funcionários devem bater o ponto:
   - `id`
   - `membroid`: mesmo id da tabela tb_membros.
+  - `dia_semana`: número que indica o dia da semana (domingo, segunda, terça, etc.).
+  - `hora_entrada`: texto indicando a hora em que o membro deve bater o ponto de entrada no formato HH:MM.
+  - `hora_saida`: texto indicando a hora em que o membro deve bater o ponto de saida no formato HH:MM.
+- `tb_pontos`: Contém os registros de quando os membros bateram pontos de entrada ou saída:
+  - `id`
+  - `membroid`
   - `dia`
   - `hora`
   - `minuto`
