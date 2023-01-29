@@ -37,15 +37,17 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
 - `tb_dia_semana`: Contém uma relação entre o id usado pelo dia_semana nas outras tabelas e o real nome destes dias da semana
   - `id`
   - `nome_dia_semana`
-  
+
+# Backup
+
+Um backup do banco será disponibilizado dentro da pasta banco_de_dados, assim como as consultas SQL que serão utilizadas pelo back-end.
+
 # Banco utilizado e sua versão
 <p>
 <img src="https://user-images.githubusercontent.com/119074384/215299336-614d29de-be05-45be-b373-0ded9c7efb5a.png" width="40" />
 PostgreSQL 13.2
 </p>
 
-# Backup
 
-Um backup do banco será disponibilizado dentro da pasta banco_de_dados, assim como as consultas SQL que serão utilizadas pelo back-end.
 
   
