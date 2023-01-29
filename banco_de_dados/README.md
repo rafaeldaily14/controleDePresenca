@@ -40,13 +40,15 @@ Tomei a liberdade de não explicar todos campos, já que alguns são auto-explic
 
 # Instalação e Backup
 
+Neste projeto, foi utilizado o PostgreSQL, mas você consegue replicar o banco quem qualquer SGBD de sua preferência, apenas não garanto que os códigos SQL feitos neste projeto irão funcionar de forma adequada. Para baixar o PostgreSQL pode acessar este link: https://www.postgresql.org/download/. Também recomendo a instalação da interface pgAdmin: https://www.pgadmin.org/download/
+
 O arquivo `backup.sql` contém um código SQL que criará todo o banco de dados que será utilizado pelo sistema, então basta executá-lo usando o query tool do pgAdmin (ou de outra forma que preferir) e terá o banco pronto para ser utilizado.
 
 # Queries
 
 Dentro da pasta `consultas` está todas as queries que são utilizadas pelo back-end. Cada uma delas possui um comentário descrevendo o que ela faz. Não é necessário baixa-las ou executa-las, estão lá apenas para aprendizado.
 
-# Banco utilizado e sua versão
+# SGBD utilizado e sua versão
 <p>
 <img src="https://user-images.githubusercontent.com/119074384/215299336-614d29de-be05-45be-b373-0ded9c7efb5a.png" width="40" />
 PostgreSQL 13.2
