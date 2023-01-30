@@ -35,13 +35,13 @@ O sistema possuirá um cadastro de membros, terá a possibilidade de registrar p
 
 O projeto será divido em 4 etapas:
 
-1. `Banco de Dados:` Criar Tabelas, Relacionamentos e Consultas que serão realizadas pelo back-end.
+:white_check_mark: 1. `Banco de Dados:` Criar Tabelas, Relacionamentos e Consultas que serão realizadas pelo back-end.
 
-2. `Back-end:` Criar a API com as funcionalidades requeridas, assim como todas as rotas necessárias para que o sistema funcione tanto para o front-end como para o mobile.
+:black_large_square: 2. `Back-end:` Criar a API com as funcionalidades requeridas, assim como todas as rotas necessárias para que o sistema funcione tanto para o front-end como para o mobile.
 
-3. `Front-end:` Apresentar no navegador web as funcionalidades de cadastro, registro de presença e relatório de faltas.
+:black_large_square: 3. `Front-end:` Apresentar no navegador web as funcionalidades de cadastro, registro de presença e relatório de faltas.
 
-4. `Mobile:` Criar um app mobile que permita que os funcionários possam visualizar suas própias faltas.
+:black_large_square: 4. `Mobile:` Criar um app mobile que permita que os funcionários possam visualizar suas própias faltas.
 
 Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização. Em cada pasta, haverá um readme com mais detalhes de cada item.
 
