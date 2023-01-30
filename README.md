@@ -1,12 +1,8 @@
 
-<h2 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h2>
+
 
 # Controle de Presença (Ponto Eletrônico)
-
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
+![image](https://img.shields.io/badge/status-em%20constru%C3%A7%C3%A3o-orange)
 
 ![image](https://user-images.githubusercontent.com/119074384/215282635-53443d7a-c311-4fa8-acc6-c5f9bbef17d1.png)
 
@@ -57,6 +53,7 @@ Cada etapa terá uma pasta própia aqui no GitHub para uma melhor organização.
   |  [<img src="https://user-images.githubusercontent.com/119074384/215287567-3e825a20-afc6-4f63-9cc4-a1efa604560c.png" width=115><br><sub>Rafael Daily</sub>](https://github.com/rafaeldaily14)|
 | :---:
 
+# Contato
 [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/rafael-daily-santos-martins-9138741b3/)
 
 rafaeldaily1414@gmail.com
